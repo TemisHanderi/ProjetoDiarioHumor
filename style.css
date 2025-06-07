@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(200, 255, 200);
+  margin: 0;
+  overflow-x: hidden;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  margin: 4% auto;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4%;
+}
+
+.titulo h1 {
+  color: rgb(81, 215, 81);
+  font-size: 4rem;
+  margin: 0;
+}
