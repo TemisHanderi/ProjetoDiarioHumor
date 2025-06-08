@@ -7,9 +7,13 @@
   <title>Diário do Humor</title>
 </head>
 <body>
-  <div class="formulario">
+  <div class="tela_inicial" id="tela_inicial">
+    <input type="text" name="nome" id="nome">
+    <button type="button" id="entrar">Entrar</button>
+  </div>
+  <div class="formulario esconderTela" id="tela_formulario">
     <header class="titulo">
-      <h1>DIÁRIO DO HUMOR</h1>
+      <h1 id="titulo_nome">DIÁRIO DO HUMOR</h1>
     </header>
     <main>
       <form>
@@ -36,28 +40,14 @@
           <input type="text" id="motivo" placeholder="Descreva como foi seu dia..">
         </div>
         <div class="enviar">
-          <button type="submit" id="salvar">Salvar Humor</button>
+          <button type="button" id="salvar">Salvar Humor</button>
         </div>
       </form>
       <section class="historico">
         <h3>Histórico da Semana:</h3>
         <div class="registros">
-          <dl>
-            <dt>Seg: </dt>
-            <dd></dd>
-            <dt>Ter: </dt>
-            <dd></dd>
-            <dt>Qua: </dt>
-            <dd></dd>
-            <dt>Qui: </dt>
-            <dd></dd>
-            <dt>Sex: </dt>
-            <dd></dd>
-            <dt>Sáb: </dt>
-            <dd></dd>
-            <dt>Dom: </dt>
-            <dd></dd>
-          </dl>
+          <ul id="historico_semanal">
+          </ul>
         </div>
       </section>
       <section class="humor">
@@ -74,5 +64,6 @@
       </section>
     </main>
   </div>
+  <script src="script.js" defer></script>
 </body>
 </html>

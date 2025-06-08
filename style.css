@@ -8,6 +8,10 @@ body {
   font-family:Arial, Helvetica, sans-serif;
 }
 
+.esconderTela {
+  display: none !important;
+}
+
 .formulario {
   background-color: white;
   width: 80%;
@@ -139,8 +143,7 @@ input[type="radio"] {
   width: 100%;
 }
 
-.registros dl {
-  line-height:220%;
+.liSemana {
   padding-left: 1.5%;
   font-weight:600;
   font-size: 1rem;
