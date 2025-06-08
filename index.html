@@ -8,16 +8,60 @@
 </head>
 <body>
   <div class="formulario">
-    <header>
-      <div class="titulo">
-        <h1>DIÁRIO DO HUMOR</h1>
-      </div>
+    <header class="titulo">
+      <h1>DIÁRIO DO HUMOR</h1>
     </header>
     <main>
-      <article class="titulo2">
-        <h1>Como você está hoje?</h1>
-      </article>
-      <section class="emojis">
+      <form>
+        <fieldset class="opcao">
+          <legend>Como você está hoje?</legend>
+          <label class="opcao_emoji">
+            <input type="radio" name="emoji" value="feliz">😄
+          </label>
+          <label class="opcao_emoji">
+            <input type="radio" name="emoji" value="normal">😐
+          </label>
+          <label class="opcao_emoji">
+            <input type="radio" name="emoji" value="triste">😔
+          </label>
+          <label class="opcao_emoji">
+            <input type="radio" name="emoji" value="zangado">😡
+          </label>
+          <label class="opcao_emoji">
+            <input type="radio" name="emoji" value="cansado">😴
+          </label>
+        </fieldset>
+        <div class="motivo">
+          <label for="motivo"><h3>Motivo:</h3></label>
+          <input type="text" id="motivo" placeholder="Descreva como foi seu dia..">
+        </div>
+        <div class="enviar">
+          <input type="submit" id="salvar" placeholder="Salvar humor do dia">
+        </div>
+      </form>
+      <section class="historico">
+        <h3>Histórico da Semana:</h3>
+        <div class="registros">
+          <dl>
+            <dt>Seg: </dt>
+            <dd></dd>
+            <dt>Ter: </dt>
+            <dd></dd>
+            <dt>Qua: </dt>
+            <dd></dd>
+            <dt>Qui: </dt>
+            <dd></dd>
+            <dt>Sex: </dt>
+            <dd></dd>
+            <dt>Sab: </dt>
+            <dd></dd>
+            <dt>Dom: </dt>
+            <dd></dd>
+          </dl>
+        </div>
+      </section>
+      <section class="humor">
+
       </section>
     </main>
   </div>
