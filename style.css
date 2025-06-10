@@ -16,7 +16,7 @@ body {
   height: 100%;
 }
 
-.info_nome {
+.info_nome {                                    /*Tela escondida*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,7 +70,7 @@ body {
   display: none !important;
 }
 
-.formulario {
+.formulario {                             /*Formulário branco*/
   background-color: white;
   width: 80%;
   margin: 2% 12% 3% 12%;
@@ -79,7 +79,7 @@ body {
   box-shadow: 0 8px 12px 2px rgba(0, 0, 0, 0.2)
 }
 
-.titulo {
+.titulo {                         /*Header*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +96,7 @@ body {
   font-weight:900;
 }
 
-.opcao {
+.opcao {                    /*Escolha dos emoji*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,7 +181,7 @@ input[type="radio"] {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.historico {
+.historico {                /*Histórico semana*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -207,7 +207,7 @@ input[type="radio"] {
   font-size: 1rem;
 }
 
-.humor {
+.humor {                    /*Registro Humor*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;

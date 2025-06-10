@@ -7,7 +7,7 @@
   <title>Diário do Humor</title>
 </head>
 <body>
-  <div class="tela_inicial" id="tela_inicial">
+  <div class="tela_inicial" id="tela_inicial">                            <!--Tela escondida-->
     <header class="info_nome">
       <div class="titulo0">
         <h1>Seja bem-vindo!</h1>
@@ -18,13 +18,13 @@
       </div>
     </header>
   </div>
-  <div class="formulario esconderTela" id="tela_formulario">
+  <div class="formulario esconderTela" id="tela_formulario">          <!--Formulário branco-->
     <header class="titulo">
       <h1 id="titulo_nome">DIÁRIO DO HUMOR</h1>
     </header>
     <main>
       <form>
-        <fieldset class="opcao">
+        <fieldset class="opcao">                                    <!--Escolha dos emoji-->
           <legend>Como você está hoje?</legend>
           <label class="opcao_emoji">
             <input type="radio" name="emoji" value="feliz">😄
@@ -42,15 +42,15 @@
             <input type="radio" name="emoji" value="cansado">😴
           </label>
         </fieldset>
-        <div class="motivo">
-          <label for="motivo"><h3>Motivo:</h3></label>
+        <div class="motivo">                                      <!--Caixa para escrever o motivo-->
+          <label for="motivo"><h3>Motivo:</h3></label>            
           <input type="text" id="motivo" placeholder="Descreva como foi seu dia..">
         </div>
-        <div class="enviar">
+        <div class="enviar">                                      <!--Botão enviar-->
           <button type="button" id="salvar">Salvar Humor</button>
         </div>
       </form>
-      <section class="historico">
+      <section class="historico">                                 <!--Seção histórico semana-->
         <h3>Histórico da Semana:</h3>
         <div class="registros">
           <ul id="historico_semanal">
@@ -59,7 +59,7 @@
       </section>
       <section class="humor">
         <h3>Humor da Semana:</h3>
-        <div class="registro_emoji">
+        <div class="registro_emoji">                            <!--Seção registro emoji semana-->
           <ul class="qnt_emoji">
             <li>😄 <span>0x</span></li>
             <li>😐 <span>0x</span></li>
